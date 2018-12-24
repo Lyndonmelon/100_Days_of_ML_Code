@@ -13,3 +13,4 @@ https://www.youtube.com/watch?v=cuQMBj1cWPo&t=7s
 Challenge start from 2018/12/24.
 
 ### Day 1 | Data preprocessing (資料預處理）
+[click me!!](https://github.com/Lyndonmelon/100_Days_of_ML_Code/tree/master/Day_1_data_preprocessing)
