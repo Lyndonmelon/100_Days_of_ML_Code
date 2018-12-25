@@ -14,3 +14,6 @@ Challenge start from 2018/12/24.
 
 ### Day 1 | Data preprocessing (資料預處理）
 [click me!!](https://github.com/Lyndonmelon/100_Days_of_ML_Code/tree/master/Day_1_data_preprocessing)
+
+### Day 2 | Linear Regression (線性回歸）
+[click me!!](https://github.com/Lyndonmelon/100_Days_of_ML_Code/tree/master/Day_2_linear_regression)
