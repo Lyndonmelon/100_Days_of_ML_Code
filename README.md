@@ -17,3 +17,6 @@ Challenge start from 2018/12/24.
 
 ### Day 2 | Linear Regression (線性回歸）
 [click me!!](https://github.com/Lyndonmelon/100_Days_of_ML_Code/tree/master/Day_2_linear_regression)
+
+### Day 3 | Logistic Regression (邏輯回歸）
+[click me!!](https://github.com/Lyndonmelon/100_Days_of_ML_Code/tree/master/Day_3_logistic_regression)
