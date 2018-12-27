@@ -22,4 +22,4 @@ Challenge start from 2018/12/24.
 [click me!!](https://github.com/Lyndonmelon/100_Days_of_ML_Code/tree/master/Day_3_logistic_regression)
 
 ### Day 4 | Polynomial Regression (多項式回歸）
-[click me!!](https://github.com/Lyndonmelon/100_Days_of_ML_Code/tree/master/Day_4_polynomial_regression)
+[click me!!](https://github.com/Lyndonmelon/100_Days_of_ML_Code/tree/master/Day_4_Polynomial_regression)
