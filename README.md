@@ -23,3 +23,9 @@ Challenge start from 2018/12/24.
 
 ### Day 4 | Polynomial Regression (多項式回歸）
 [click me!!](https://github.com/Lyndonmelon/100_Days_of_ML_Code/tree/master/Day_4_Polynomial_regression)
+
+### Day 5 | Linear Model Selection and Regularization 
+在先前幾天有複習到overfitting的問題，因此今天針對要如何選擇一個好的Model與相關的手法加以複習，複習的資源為：
+1. [李宏毅老師課程 ML Lecture 2: Where does the error come from?](https://www.youtube.com/watch?v=D_S6y0Jm6dQ&t=1575s)
+2. [An Introduction to Statistical Learning - 第六章](https://www.ime.unicamp.br/~dias/Intoduction%20to%20Statistical%20Learning.pdf)
+
