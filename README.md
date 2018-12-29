@@ -29,3 +29,6 @@ Challenge start from 2018/12/24.
 1. [李宏毅老師課程 ML Lecture 2: Where does the error come from?](https://www.youtube.com/watch?v=D_S6y0Jm6dQ&t=1575s)
 2. [An Introduction to Statistical Learning - 第六章](https://www.ime.unicamp.br/~dias/Intoduction%20to%20Statistical%20Learning.pdf)
 
+### Day 6 | Project - Warm Up: Predict Blood Donations
+https://www.drivendata.org/competitions/2/warm-up-predict-blood-donations/submissions/
+第六天利用Drivendata網站上的項目來做練習。[Code](https://github.com/Lyndonmelon/100_Days_of_ML_Code/tree/master/Day_6_project)
