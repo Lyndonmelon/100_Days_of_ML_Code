@@ -32,3 +32,9 @@ Challenge start from 2018/12/24.
 ### Day 6 | Project - Warm Up: Predict Blood Donations
 https://www.drivendata.org/competitions/2/warm-up-predict-blood-donations/submissions/
 第六天利用Drivendata網站上的項目來做練習。[Code](https://github.com/Lyndonmelon/100_Days_of_ML_Code/tree/master/Day_6_project)
+
+### Day 7 | Support Vector Machine (reading)
+今天複習SVM課程，SVM是機器學習中相當經典的一個演算法，此演算法經常拿來應用在分類問題中，但其實SVM也可以用來預測回歸的問題，其實不管是分類或回歸的問題，其實SVM就是在找一個最適平面去將資料分類，或是或是做準確的預測。相關資料：
+1. [李宏毅老師課程 ML Lecture 20: Support Vector Machine (SVM)](https://www.youtube.com/watch?v=QSEPStBgwRQ&index=29&list=PLJV_el3uVTsPy9oCRY30oBPNLCo89yu49)
+2. [Support Vector Machines 簡介](http://www.cmlab.csie.ntu.edu.tw/~cyy/learning/tutorials/SVM2.pdf)
+
