@@ -38,3 +38,9 @@ https://www.drivendata.org/competitions/2/warm-up-predict-blood-donations/submis
 1. [李宏毅老師課程 ML Lecture 20: Support Vector Machine (SVM)](https://www.youtube.com/watch?v=QSEPStBgwRQ&index=29&list=PLJV_el3uVTsPy9oCRY30oBPNLCo89yu49)
 2. [Support Vector Machines 簡介](http://www.cmlab.csie.ntu.edu.tw/~cyy/learning/tutorials/SVM2.pdf)
 
+
+### Day 8 | Support Vector Machine (reading+code)
+學習資源:
+1. [hands on machine learning with scikit-learn and tensorflow] (https://github.com/ageron/handson-ml/blob/master/05_support_vector_machines.ipynb)
+
+
