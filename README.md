@@ -38,9 +38,13 @@ https://www.drivendata.org/competitions/2/warm-up-predict-blood-donations/submis
 1. [李宏毅老師課程 ML Lecture 20: Support Vector Machine (SVM)](https://www.youtube.com/watch?v=QSEPStBgwRQ&index=29&list=PLJV_el3uVTsPy9oCRY30oBPNLCo89yu49)
 2. [Support Vector Machines 簡介](http://www.cmlab.csie.ntu.edu.tw/~cyy/learning/tutorials/SVM2.pdf)
 
-
 ### Day 8 | Support Vector Machine (reading+code)
 學習資源:
 1. [hands on machine learning with scikit-learn and tensorflow] (https://github.com/ageron/handson-ml/blob/master/05_support_vector_machines.ipynb)
 
-
+### Day 9 | Trees 決策樹 (reading)
+學習資源：
+1. [hands on machine learning with scikit-learn and tensorflow] (https://github.com/ageron/handson-ml/blob/master/06_decision_trees.ipynb)
+2. hands on machine learning with scikit-learn and tensorflow] (https://github.com/ageron/handson-ml/blob/master/07_ensemble_learning_and_random_forests.ipynb)
+3. [資料分析&機器學習 第3.5講 : 決策樹(Decision Tree)以及隨機森林(Random Forest)介紹] (https://medium.com/@yehjames/%E8%B3%87%E6%96%99%E5%88%86%E6%9E%90-%E6%A9%9F%E5%99%A8%E5%AD%B8%E7%BF%92-%E7%AC%AC3-5%E8%AC%9B-%E6%B1%BA%E7%AD%96%E6%A8%B9-decision-tree-%E4%BB%A5%E5%8F%8A%E9%9A%A8%E6%A9%9F%E6%A3%AE%E6%9E%97-random-forest-%E4%BB%8B%E7%B4%B9-7079b0ddfbda)
+4. [資料分析&機器學習 第5.2講: Kaggle機器學習競賽神器XGBoost介紹](https://medium.com/@yehjames/%E8%B3%87%E6%96%99%E5%88%86%E6%9E%90-%E6%A9%9F%E5%99%A8%E5%AD%B8%E7%BF%92-%E7%AC%AC5-2%E8%AC%9B-kaggle%E6%A9%9F%E5%99%A8%E5%AD%B8%E7%BF%92%E7%AB%B6%E8%B3%BD%E7%A5%9E%E5%99%A8xgboost%E4%BB%8B%E7%B4%B9-1c8f55cffcc)
