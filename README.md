@@ -48,3 +48,10 @@ https://www.drivendata.org/competitions/2/warm-up-predict-blood-donations/submis
 2. [hands on machine learning with scikit-learn and tensorflow](https://github.com/ageron/handson-ml/blob/master/07_ensemble_learning_and_random_forests.ipynb)
 3. [資料分析&機器學習 第3.5講 : 決策樹(Decision Tree)以及隨機森林(Random Forest)介紹](https://medium.com/@yehjames/%E8%B3%87%E6%96%99%E5%88%86%E6%9E%90-%E6%A9%9F%E5%99%A8%E5%AD%B8%E7%BF%92-%E7%AC%AC3-5%E8%AC%9B-%E6%B1%BA%E7%AD%96%E6%A8%B9-decision-tree-%E4%BB%A5%E5%8F%8A%E9%9A%A8%E6%A9%9F%E6%A3%AE%E6%9E%97-random-forest-%E4%BB%8B%E7%B4%B9-7079b0ddfbda)
 4. [資料分析&機器學習 第5.2講: Kaggle機器學習競賽神器XGBoost介紹](https://medium.com/@yehjames/%E8%B3%87%E6%96%99%E5%88%86%E6%9E%90-%E6%A9%9F%E5%99%A8%E5%AD%B8%E7%BF%92-%E7%AC%AC5-2%E8%AC%9B-kaggle%E6%A9%9F%E5%99%A8%E5%AD%B8%E7%BF%92%E7%AB%B6%E8%B3%BD%E7%A5%9E%E5%99%A8xgboost%E4%BB%8B%E7%B4%B9-1c8f55cffcc)
+
+(打算先將一些手邊資源先複習完，後續code的部分在以project的形式練習）
+### Day 10 | PCA 降維 （reading)
+PCA降維是在機器學習中非常重要的技巧，原因是通常取得的資料維度都相當高，雖然說也可以選擇在做完EDA+datapreprocessing後就直接測試模型，但是將資料做好的降維處理會幫助你加速後續模型的訓練、減少不必要的維度，甚至是可以做視覺化（前提是在三維以下，同時也有encoder的效果；但降維並不是只有優點，若資料集維度高且大，做資料降維計算時間可能會拉長，導致整個ML pipline的複雜度，而且將為後的特徵也很難解釋。因此如何降維，要降到幾維？便是一個很值得學習的問題。學習資源：
+
+1. [hands on machine learning with scikit-learn and tensorflow](https://github.com/ageron/handson-ml/blob/master/08_dimensionality_reduction.ipynb)
+2. [李宏毅老師課程 ML Lecture 16: Unsupervised Learning - Auto-encoder](https://www.youtube.com/watch?v=Tk5B4seA-AU&list=PLJV_el3uVTsPy9oCRY30oBPNLCo89yu49&index=25)
