@@ -55,3 +55,15 @@ PCA降維是在機器學習中非常重要的技巧，原因是通常取得的�
 
 1. [hands on machine learning with scikit-learn and tensorflow](https://github.com/ageron/handson-ml/blob/master/08_dimensionality_reduction.ipynb)
 2. [李宏毅老師課程 ML Lecture 16: Unsupervised Learning - Auto-encoder](https://www.youtube.com/watch?v=Tk5B4seA-AU&list=PLJV_el3uVTsPy9oCRY30oBPNLCo89yu49&index=25)
+
+### Day 11 | Naive Bayesian Classifier & Hidden Markov Model
+簡單貝氏分類器（Naive Bayesian Classifier)以及隱馬可夫模型（Hidden Markov Model)都是透過機率來解決像是分類、語音辨識、機器翻譯等問題，兩者都是不複雜的數學模型。
+（１）簡單貝氏分類模型其實就是建立在條件機率上的一個模型，透過『獨立事件假設』前提來計算事件機率，也就是在每一維的資料都是獨立的前提下，進行計算做出分類，這是此模型的特點也是不太符合現實情況的一個地方，因為現實的資料可能不會滿足這個假設，就像是我們說出「豆漿」這個詞接續的比較可能是「油條」而不是「巧克力」一樣的道理。相關資源如下：
+1. [AI - Ch15 機器學習(3), 樸素貝葉斯分類器 Naive Bayes classifier](http://mropengate.blogspot.com/2015/06/ai-ch14-3-naive-bayes-classifier.html)
+2. [初探機器學習使用python](https://www.books.com.tw/products/0010764445)
+
+（２）隱馬可夫模型是基於馬可夫鏈所發展出的模型，馬可夫鍊的假設為「在隨機過程中，各個狀態$S_t的機率分佈，只與他的前一個狀態$S_t-1有關」，因此我們即可以利用這個假設來知道我們在某個狀態$m_i到$m_j的移轉機率。而隱馬可夫模型就是馬可夫鍊的一個延伸：模型中任意時間t的狀態$S_t是不可見的，所以觀察者無法透過觀察一個狀態序列來推測狀態移轉的機率，但是HMMs(隱馬可夫模型)在每個時刻t都會輸出一個輸出項$O_t，而且這個$Q_t跟$S_t相關且僅跟$S_t相關，透過此輸出項與狀態的關係推算出實際模型中個時間狀態移轉的機率」。利用隱馬可夫模型的這個特性，此模型就可以利用在自然語言處理中的翻譯、語音辨識、文字偵錯等問題上。相關資源如下：
+1. [CS188 Lecture 18 HMMs](https://www.youtube.com/watch?v=9dp4whVQv5s)
+2. [數學之美 ch.5](https://www.tenlong.com.tw/products/9787115373557)
+
+
