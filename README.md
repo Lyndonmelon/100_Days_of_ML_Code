@@ -58,6 +58,7 @@ PCA降維是在機器學習中非常重要的技巧，原因是通常取得的�
 
 ### Day 11 | Naive Bayesian Classifier & Hidden Markov Model
 簡單貝氏分類器（Naive Bayesian Classifier)以及隱馬可夫模型（Hidden Markov Model)都是透過機率來解決像是分類、語音辨識、機器翻譯等問題，兩者都是不複雜的數學模型。
+
 （１）簡單貝氏分類模型其實就是建立在條件機率上的一個模型，透過『獨立事件假設』前提來計算事件機率，也就是在每一維的資料都是獨立的前提下，進行計算做出分類，這是此模型的特點也是不太符合現實情況的一個地方，因為現實的資料可能不會滿足這個假設，就像是我們說出「豆漿」這個詞接續的比較可能是「油條」而不是「巧克力」一樣的道理。相關資源如下：
 1. [AI - Ch15 機器學習(3), 樸素貝葉斯分類器 Naive Bayes classifier](http://mropengate.blogspot.com/2015/06/ai-ch14-3-naive-bayes-classifier.html)
 2. [初探機器學習使用python](https://www.books.com.tw/products/0010764445)
