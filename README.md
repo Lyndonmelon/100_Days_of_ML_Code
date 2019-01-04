@@ -67,4 +67,5 @@ PCA降維是在機器學習中非常重要的技巧，原因是通常取得的�
 1. [CS188 Lecture 18 HMMs](https://www.youtube.com/watch?v=9dp4whVQv5s)
 2. [數學之美 ch.5](https://www.tenlong.com.tw/products/9787115373557)
 
-
+### Day 12 | T_brain資料競賽-玉山人工智慧公開挑戰賽#1 - 金融商品交易預測 (project)
+[競賽連結](https://tbrain.trendmicro.com.tw/Competitions/Details/5)
