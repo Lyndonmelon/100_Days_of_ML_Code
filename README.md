@@ -74,3 +74,7 @@ Data Preprocessing.
 ### Day 13 | T_brain資料競賽-玉山人工智慧公開挑戰賽#1 - 金融商品交易預測 (project)
 Data preprocessing.
 
+### Day 14 | 複習深度學習訓練方法與Tensorflow
+深度學習神經網路訓練通常會碰到很多問題，不管是overfitting或是underfitting，要如何針對訓練情況對症下藥調整超參數是非常重要的，而使用其他的技巧如early stopping、regularization或者是dropout也非常的關鍵，那在了解了其中的方法，要如何在程式上實現，又是另一個問題了。深度學習使用的框架也是很多種，例如Tensorflow、pytorch等等，因為在AIA學習的是tensorflow，因此將針對tensorflow來複習。
+1. [Hands on machine learning on sci-kitlearn nad tensorflow](https://github.com/ageron/handson-ml/blob/master/11_deep_learning.ipynb)
+2. [李宏毅老師課程 ML Lecture 9-1: Tips for Training DNN](https://www.youtube.com/watch?v=xki61j7z-30&list=PLJV_el3uVTsPy9oCRY30oBPNLCo89yu49&index=16)
