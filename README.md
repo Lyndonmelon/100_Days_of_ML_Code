@@ -58,12 +58,32 @@ PCA降維是在機器學習中非常重要的技巧，原因是通常取得的�
 
 ### Day 11 | Naive Bayesian Classifier & Hidden Markov Model
 簡單貝氏分類器（Naive Bayesian Classifier)以及隱馬可夫模型（Hidden Markov Model)都是透過機率來解決像是分類、語音辨識、機器翻譯等問題，兩者都是不複雜的數學模型。
+
 （１）簡單貝氏分類模型其實就是建立在條件機率上的一個模型，透過『獨立事件假設』前提來計算事件機率，也就是在每一維的資料都是獨立的前提下，進行計算做出分類，這是此模型的特點也是不太符合現實情況的一個地方，因為現實的資料可能不會滿足這個假設，就像是我們說出「豆漿」這個詞接續的比較可能是「油條」而不是「巧克力」一樣的道理。相關資源如下：
 1. [AI - Ch15 機器學習(3), 樸素貝葉斯分類器 Naive Bayes classifier](http://mropengate.blogspot.com/2015/06/ai-ch14-3-naive-bayes-classifier.html)
 2. [初探機器學習使用python](https://www.books.com.tw/products/0010764445)
 
-（２）隱馬可夫模型是基於馬可夫鏈所發展出的模型，馬可夫鍊的假設為「在隨機過程中，各個狀態$S_t的機率分佈，只與他的前一個狀態$S_t-1有關」，因此我們即可以利用這個假設來知道我們在某個狀態$m_i到$m_j的移轉機率。而隱馬可夫模型就是馬可夫鍊的一個延伸：模型中任意時間t的狀態$S_t是不可見的，所以觀察者無法透過觀察一個狀態序列來推測狀態移轉的機率，但是HMMs(隱馬可夫模型)在每個時刻t都會輸出一個輸出項$O_t，而且這個$Q_t跟$S_t相關且僅跟$S_t相關，透過此輸出項與狀態的關係推算出實際模型中個時間狀態移轉的機率」。利用隱馬可夫模型的這個特性，此模型就可以利用在自然語言處理中的翻譯、語音辨識、文字偵錯等問題上。相關資源如下：
+（２）隱馬可夫模型是基於馬可夫鏈所發展出的模型，馬可夫鍊的假設為「在隨機過程中，各個狀態S_t的機率分佈，只與他的前一個狀態S_t-1有關」，因此我們即可以利用這個假設來知道我們在某個狀態m_i到m_j的移轉機率。而隱馬可夫模型就是馬可夫鍊的一個延伸：模型中任意時間t的狀態S_t是不可見的，所以觀察者無法透過觀察一個狀態序列來推測狀態移轉的機率，但是HMMs(隱馬可夫模型)在每個時刻t都會輸出一個輸出項O_t而且這個O_t跟S_t相關且僅跟S_t相關，透過此輸出項與狀態的關係推算出實際模型中各時間狀態移轉的機率」。利用隱馬可夫模型的這個特性，此模型就可以利用在自然語言處理中的翻譯、語音辨識、文字偵錯等問題上。相關資源如下：
 1. [CS188 Lecture 18 HMMs](https://www.youtube.com/watch?v=9dp4whVQv5s)
 2. [數學之美 ch.5](https://www.tenlong.com.tw/products/9787115373557)
+
+### Day 12 | T_brain資料競賽-玉山人工智慧公開挑戰賽#1 - 金融商品交易預測 (project)
+[競賽連結](https://tbrain.trendmicro.com.tw/Competitions/Details/5)
+Data Preprocessing.
+
+### Day 13 | T_brain資料競賽-玉山人工智慧公開挑戰賽#1 - 金融商品交易預測 (project)
+Data preprocessing.
+
+### Day 14 | 複習深度學習訓練方法與Tensorflow
+深度學習神經網路訓練通常會碰到很多問題，不管是overfitting或是underfitting，要如何針對訓練情況對症下藥調整超參數是非常重要的，而使用其他的技巧如early stopping、regularization或者是dropout也非常的關鍵，那在了解了其中的方法，要如何在程式上實現，又是另一個問題了。深度學習使用的框架也是很多種，例如Tensorflow、pytorch等等，因為在AIA學習的是tensorflow，因此將針對tensorflow來複習。
+1. [Hands on machine learning on sci-kitlearn nad tensorflow](https://github.com/ageron/handson-ml/blob/master/11_deep_learning.ipynb)
+2. [李宏毅老師課程 ML Lecture 9-1: Tips for Training DNN](https://www.youtube.com/watch?v=xki61j7z-30&list=PLJV_el3uVTsPy9oCRY30oBPNLCo89yu49&index=16)
+
+### Day 15 |  CNN學習與實作
+CNN(Convolutional Neural Neework)是類神經網路的一種，為人所知的就是他在影像上的處理，但是其實CNN可以拿來應用在不同的問題上，如時間序列問題等，其衍伸的型態還有很多種，而本次將利用MNIST資料集來實作建構一個Siamese Neural Network。相關學習資源：
+1. [Hands on machine learning on sci-kitlearn nad tensorflow](https://github.com/ageron/handson-ml/blob/master/13_convolutional_neural_networks.ipynb)
+2. [What are Siamese neural networks, what applications are they good for, and why?
+](https://www.quora.com/What-are-Siamese-neural-networks-what-applications-are-they-good-for-and-why
+3. [Neural Networks - Siamese Network](https://www.youtube.com/watch?v=AKyHGzCSEK4)
 
 
