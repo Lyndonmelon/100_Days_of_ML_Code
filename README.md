@@ -78,3 +78,12 @@ Data preprocessing.
 深度學習神經網路訓練通常會碰到很多問題，不管是overfitting或是underfitting，要如何針對訓練情況對症下藥調整超參數是非常重要的，而使用其他的技巧如early stopping、regularization或者是dropout也非常的關鍵，那在了解了其中的方法，要如何在程式上實現，又是另一個問題了。深度學習使用的框架也是很多種，例如Tensorflow、pytorch等等，因為在AIA學習的是tensorflow，因此將針對tensorflow來複習。
 1. [Hands on machine learning on sci-kitlearn nad tensorflow](https://github.com/ageron/handson-ml/blob/master/11_deep_learning.ipynb)
 2. [李宏毅老師課程 ML Lecture 9-1: Tips for Training DNN](https://www.youtube.com/watch?v=xki61j7z-30&list=PLJV_el3uVTsPy9oCRY30oBPNLCo89yu49&index=16)
+
+### Day 15 |  CNN學習與實作
+CNN(Convolutional Neural Neework)是類神經網路的一種，為人所知的就是他在影像上的處理，但是其實CNN可以拿來應用在不同的問題上，如時間序列問題等，其衍伸的型態還有很多種，而本次將利用MNIST資料集來實作建構一個Siamese Neural Network。相關學習資源：
+1. [Hands on machine learning on sci-kitlearn nad tensorflow](https://github.com/ageron/handson-ml/blob/master/13_convolutional_neural_networks.ipynb)
+2. [What are Siamese neural networks, what applications are they good for, and why?
+](https://www.quora.com/What-are-Siamese-neural-networks-what-applications-are-they-good-for-and-why
+3. [Neural Networks - Siamese Network](https://www.youtube.com/watch?v=AKyHGzCSEK4)
+
+
