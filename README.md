@@ -86,4 +86,7 @@ CNN(Convolutional Neural Neework)是類神經網路的一種，為人所知的�
 ](https://www.quora.com/What-are-Siamese-neural-networks-what-applications-are-they-good-for-and-why
 3. [Neural Networks - Siamese Network](https://www.youtube.com/watch?v=AKyHGzCSEK4)
 
-
+### Day 16 |  CNN學習與實作
+實際練習建構Siamese Neural Network
+[Siamese Neural Network](https://github.com/Lyndonmelon/100_Days_of_ML_Code/blob/master/Day_15_DNN/Day_15_DNN.ipynb)
+1. [Dimensionality Reduction by Learning an Invariant Mapping](http://yann.lecun.com/exdb/publis/pdf/hadsell-chopra-lecun-06.pdf)
