@@ -90,3 +90,12 @@ CNN(Convolutional Neural Neework)是類神經網路的一種，為人所知的�
 實際練習建構Siamese Neural Network
 [Siamese Neural Network](https://github.com/Lyndonmelon/100_Days_of_ML_Code/blob/master/Day_15_DNN/Day_15_DNN.ipynb)
 1. [Dimensionality Reduction by Learning an Invariant Mapping](http://yann.lecun.com/exdb/publis/pdf/hadsell-chopra-lecun-06.pdf)
+
+### Day 17 |  影像辨識文獻reading-day1
+影像辨識其實是深度學習中很重要的一個問題，因為目前AIA期末專案是做物件辨識，因此針對相關文獻與文章進行學習，又因為影像辨識問題所提出的 model相當多（如R-CNN, Faster R-CNN, Yolo等），將規劃三天研讀此主題。相關文獻資料如下：
+1. [Understanding the mAP Evaluation Metric for Object Detection](https://medium.com/@timothycarlen/understanding-the-map-evaluation-metric-for-object-detection-a07fe6962cf3)相當重要的一篇
+2. [一文读懂：R-CNN、Fast R-CNN、Faster R-CNN、YOLO、SSD](https://hk.saowen.com/a/ea0b8f4a0266432ae2df9b75548929b77393a26141d06a70f8a3061025462b77)
+3. 其他paper則不一一列出，相關連結皆有在上面兩篇文章中。
+
+
+
